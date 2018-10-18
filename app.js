@@ -36,7 +36,7 @@ function getTasks() {
     //Create li element
     const li = document.createElement("li");
     //Add Class
-    li.className = "collection-item";
+    li.className = "collection-item lime lighten-3";
     //Create text node and append it to li
     li.appendChild(document.createTextNode(task));
     //Create new link element
@@ -63,7 +63,7 @@ function addTask(e) {
   //Create li element
   const li = document.createElement("li");
   //Add Class
-  li.className = "collection-item";
+  li.className = "collection-item lime lighten-3";
   //Create text node and append it to li
   li.appendChild(document.createTextNode(taskInput.value));
   //Create new link element
